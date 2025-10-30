@@ -2,7 +2,7 @@ import graphene
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from crm.models import Product
-from models import Customer, Product, Order
+from .models import Customer, Product, Order
 from .filters import CustomerFilter, ProductFilter, OrderFilter
 
 
